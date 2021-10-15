@@ -1,0 +1,53 @@
+.topbarcontainer{
+    height:50px;
+    width:100%;
+    background-color: #A74AC7;
+    display:flex;
+    position:sticky;
+    top:0;
+    z-index: 999;
+}
+.topic{
+    font-size:35px;
+    font-family: "Roboto Light";
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.navCenter{
+    flex:5;
+}
+.navRight{
+    flex:3;
+    }
+.navLeft{
+    flex:4;
+}
+.log{
+    font-family: "Roboto Light";
+    font-weight:bold;
+    color: #FFFFFF;
+    font-size:15pt;
+}
+.rightContainer {
+    margin-top: 10px;
+    margin-left: 150px;
+}
+.searchIcon{
+    color:red;
+}
+.searchInput{
+    border:none;
+    width:90%;
+}
+.searchbox{
+    width:80%;
+    height:30px;
+    background-color:white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.searchInput:focus{
+    outline:none;
+}

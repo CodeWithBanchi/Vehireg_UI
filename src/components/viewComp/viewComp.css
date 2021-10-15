@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+.main-container{
+    flex:2;
+    margin-top:10px;
+    margin-bottom:10px;
+
+}
+.viewBox{
+
+    height:350px;
+    width:95%;
+    margin-left:20px;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  26px 26px 52px #c3c3c3,
+    -26px -26px 52px #fdfdfd;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.vehiName{
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 40px;
+    font-family: "Roboto Light";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Bowlby One SC', cursive;
+}
+.inputCouple{
+    margin-left: 50px;
+}
+.input1{
+    color:red;
+    font-size:30px
+}
+.input2{
+    font-size:30px
+}

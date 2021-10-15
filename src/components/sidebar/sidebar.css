@@ -1,0 +1,28 @@
+.sidebarContainer{
+    flex:3;
+    background-color:whitesmoke;
+    height:calc(100vh - 50px);
+    overflow-y: scroll;
+    position:sticky;
+    top: 50px;
+}
+.option{
+    background-color: #FF6700;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 30px;
+    align-items: center;
+    height: 40px;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 0px 17px 6px rgba(0,0,0,0.35);
+    box-shadow: 1px 0px 17px 6px rgba(0,0,0,0.35);
+    width:90%;
+}
+.optionContent{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+    margin:10px;
+}

@@ -1,0 +1,60 @@
+.register-box{
+    width: 100%;
+    height: 490px;
+    border-radius: 10px;
+    background-color:white;
+    -webkit-box-shadow: 1px 0px 17px 6px rgba(0,0,0,0.35);
+    box-shadow: 1px 0px 17px 6px rgba(0,0,0,0.35);
+}
+.Top{
+    display: flex;
+    align-items: center;
+}
+.input{
+    border:none;
+    width:80%;
+    background:transparent;
+    font-size:20px;
+    font-family: "Roboto Light";
+    margin-top:10px;
+    margin-left: 10px;
+}
+.input2{
+    border: none;
+    width: 80%;
+    background: transparent;
+    font-size: 16px;
+    font-family: "Roboto Light";
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.input2:focus{
+    outline: none;
+}
+.box{
+    margin-left: 1px;
+    background-color:#f8dce7;
+    width:80%;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.drop{
+    margin-left: 10px;
+}
+.regbuttonContainer{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.Button{
+    border:none;
+    padding: 7px;
+    border-radius: 5px;
+    background-color:rgb(66, 105, 8);
+    font-weight: 500;
+    margin-right: 20px;
+    cursor: pointer;
+    color:white;
+}
