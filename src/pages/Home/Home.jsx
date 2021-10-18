@@ -6,11 +6,10 @@ import './home.css'
 import VehiReg from "../../components/vehiReg/VehiReg";
 function Home(props) {
     return (
-    <>  <Navigation log="Sign Up"/>
+    <>  <Navigation log="Register your Vehicle "/>
         <div className="homeContainer" >
             <SideBar/>
             <Rightbar/>
-
         </div>
     </>
     );

@@ -12,6 +12,8 @@
     font-family: "Roboto Light";
     font-weight: bold;
     color: #FFFFFF;
+    margin-left:15px;
+    text-decoration: none;
 }
 .navCenter{
     flex:5;
@@ -50,4 +52,7 @@
 }
 .searchInput:focus{
     outline:none;
+}
+.topic:hover{
+ color: #d6b0f5;
 }

@@ -26,3 +26,16 @@
     color: white;
     margin:10px;
 }
+.hyperlink{
+    text-decoration: none;
+    color:white;
+    margin-left: 10px;
+}
+.hyperlink:hover{
+    color: #ffb37a;
+    font-weight: bold;
+}
+.cards{
+    margin-top: 40px;
+    margin-left: 10px;
+}

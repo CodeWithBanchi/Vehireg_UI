@@ -8,7 +8,7 @@
 }
 .viewBox{
 
-    height:350px;
+    height:370px;
     width:95%;
     margin-left:20px;
     border-radius: 50px;
@@ -17,6 +17,7 @@
     -26px -26px 52px #fdfdfd;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    margin-bottom:20px;
 }
 .vehiName{
     margin-left: 50px;
@@ -32,8 +33,40 @@
 }
 .input1{
     color:red;
-    font-size:30px
+    font-size:25px
 }
 .input2{
-    font-size:30px
+    font-size:25px
+}
+.edit{
+    margin-left:50px;
+    justify-content:space-between;
+    margin-right: 20px;
+}
+.updater{
+    display:flex;
+    margin-top: 3px;
+
+}
+.topContainer{
+    display:flex;
+}
+.searchbox{
+    width:80%;
+    height:35px;
+    background-color:white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    border-color: red;
+    border-style: solid;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+.searchInput:focus{
+    outline:darkblue;
+}
+.topic:hover{
+    color: #d6b0f5;
 }

@@ -7,9 +7,7 @@ function Feed(props) {
         <div className="feed">
             <div className="feedWrapper">
                 <ViewComp/>
-                <ViewComp/>
-                <ViewComp/>
-                <ViewComp/>
+
             </div>
         </div>
     );
